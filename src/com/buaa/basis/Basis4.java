@@ -9,7 +9,8 @@ package com.buaa.basis;
 public class Basis4 {
 
 	private int age;
-
+	
+	
 	public int getAge() {
 		return this.age;
 	}

@@ -21,10 +21,10 @@ public class Demo1 {
 }
 
 class Person {
-	private String name = "jack";
-	private int age = 22;
-	private double height = 1.77;
-	private double weight = 63;
+	String name = "jack";
+	int age = 22;
+	double height = 1.77;
+	double weight = 63;
 
 	public double Bmivalue() {
 		return height / (weight * weight);

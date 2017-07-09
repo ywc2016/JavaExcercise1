@@ -3,8 +3,11 @@ package com.buaa.constructor;
 public class Demo1 {
 
 	public static void main(String[] args) {
+		
+		Person person = new Person("mark", 20);
 
 	}
+
 }
 
 class Person {

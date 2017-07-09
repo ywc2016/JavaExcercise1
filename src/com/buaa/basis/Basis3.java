@@ -6,6 +6,7 @@ package com.buaa.basis;
  * @author ywcrm
  * 
  */
+
 public class Basis3 {
 
 	public static void main(String[] args) {
@@ -29,6 +30,20 @@ public class Basis3 {
 		Integer i1 = new Integer(200);
 		int i2 = i1.intValue();
 		int i3 = Integer.parseInt("200");
-		
+
+		String s2 = "365";
+		int a2 = Integer.parseInt(s2);
+		System.out.println(a2);
+
+		f1();
 	}
+
+	static void f1() {
+		final double a = 3.14;
+
+		String[] s;
+		s = new String[4];
+		System.out.println(s.length);
+	}
+
 }

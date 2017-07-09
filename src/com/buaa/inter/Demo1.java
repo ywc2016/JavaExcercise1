@@ -6,6 +6,7 @@ public class Demo1 {
 		X a1 = new A();
 		Y a2 = new A();
 		Z a3 = new A();
+
 		a1.ss();
 		a2.mm();
 		a3.tt();
@@ -23,6 +24,7 @@ interface Y {
 }
 
 interface Z extends X, Y {
+
 }
 
 class A implements Z {

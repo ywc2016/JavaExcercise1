@@ -1,7 +1,7 @@
 package com.buaa.reflection;
 
 public class User extends BaseUser {
-	
+
 	private int id;
 	private String name;
 
@@ -11,6 +11,11 @@ public class User extends BaseUser {
 	public User(String name) {
 		this.name = name;
 
+	}
+
+	public User(String name, int id) {
+		this.name = name;
+		this.id = id;
 	}
 
 	public int getId() {
